@@ -353,5 +353,4 @@ MigrationBackup/
 *.class
 
 # c wrapper library
-.jnilib
 *.jnilib
