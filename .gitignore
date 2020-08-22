@@ -350,7 +350,8 @@ MigrationBackup/
 .ionide/
 
 # java class
-.class
+*.class
 
 # c wrapper library
 .jnilib
+*.jnilib

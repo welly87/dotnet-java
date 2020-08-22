@@ -6,7 +6,7 @@ public class MyTest {
         System.out.println(magic_counter);
     }
 
-    public static int Square(int n) {
+    public static int square(int n) {
         return n * n;
     }
 }

@@ -26,7 +26,7 @@ extern "C"
         
         if (rc != JNI_OK)
         {
-            // TO DO: error processing...
+            // TODO: error processing...
             cin.get();
             exit(EXIT_FAILURE);
         }
@@ -59,7 +59,7 @@ extern "C"
             }
         }
 
-        jmethodID mid2 = env->GetStaticMethodID(cls2, "Square", "(I)I");
+        jmethodID mid2 = env->GetStaticMethodID(cls2, "square", "(I)I");
         
         if (mid2 == nullptr)
         {
@@ -74,9 +74,9 @@ extern "C"
             cout << endl;
         }
 
-        // TO DO: add the code that will use JVM <============  (see next steps)
+        // TODO: add the code that will use JVM <============  (see next steps)
         jvm->DestroyJavaVM();
-        cin.get();
+        // cin.get();
         
         return 0;
     }
